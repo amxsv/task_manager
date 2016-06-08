@@ -16,6 +16,7 @@ gem 'wrong'
 gem 'factory_girl_rails'
 gem 'pry'
 gem 'simple_form'
+gem 'coveralls', require: false
 
 
 # Use Unicorn as the app server
