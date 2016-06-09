@@ -20,4 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app_name: "Task Manager"
+  todo: "To Do"
+  show: "Show"
+  edit: "Edit"
+  destroy: "Destroy"
+  are_you_sure: "Are you sure?"
+  new_task: "New Task"
+  bask: "back"
+  title: 'Title:'
+  editing_task: 'Editing Task'
+  input_task: 'Input Task'
+  error_explanation_endind: 'prohibited this task from being saved:'

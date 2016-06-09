@@ -1,8 +1,8 @@
-%h1 Editing task
+%h1= t('editing_task')
 
 = render 'form'
 
 %br
-= link_to 'Show', @task
+= link_to t('show'), @task
 
-= link_to 'Back', tasks_path
+= link_to t('back'), tasks_path

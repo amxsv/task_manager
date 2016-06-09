@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :task do
-    title { generate :string }
+    sequence :title
   end
 end

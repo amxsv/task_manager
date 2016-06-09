@@ -17,7 +17,9 @@ gem 'factory_girl_rails'
 gem 'pry'
 gem 'simple_form'
 gem 'coveralls', require: false
-
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'state_machine'
+gem 'i18n'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
