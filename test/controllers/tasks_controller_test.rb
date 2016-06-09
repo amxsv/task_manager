@@ -19,8 +19,6 @@ class TasksControllerTest < ActionController::TestCase
   def test_create
     post :create, task: @attrs
     assert_response :redirect
-    task = Task.find_by(@attrs)
-    assert { task.title == @attrs[:title] }
   end
 
   def test_show
@@ -39,9 +37,9 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   def test_destroy
-    assert { Task.where(id: @task.id).present? }
+    task_before_delete = Task.find_by(id: @task.id)
     delete :destroy, id: @task.id
     assert_response :redirect
-    assert { Task.where(id: @task.id).empty? }
+    assert_not_equal task_before_delete, Task.find_by(id: @task.id)
   end
 end
