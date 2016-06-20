@@ -27,7 +27,7 @@ en:
   destroy: "Destroy"
   are_you_sure: "Are you sure?"
   new_task: "New Task"
-  bask: "back"
+  back: "Back"
   title: 'Title:'
   editing_task: 'Editing Task'
   input_task: 'Input Task'

@@ -1,9 +1,9 @@
-%h1= t('app_name')
+%h1= I18n.t('.app_name')
 
 %table
   %thead
     %tr
-      %th= t('todo')
+      %th= I18n.t('.todo')
       %th
       %th
       %th
@@ -12,10 +12,10 @@
     - @tasks.each do |task|
       %tr
         %td= task.title
-        %td= link_to t('show'), task
-        %td= link_to t('edit'), edit_task_path(task)
-        %td= link_to t('destroy'), task, :method => :delete, :data => { :confirm => t('are_you_sure') }
+        %td= link_to I18n.t('.show'), task
+        %td= link_to I18n.t('.edit'), edit_task_path(task)
+        %td= link_to I18n.t('.destroy'), task, :method => :delete, :data => { :confirm => I18n.t('are_you_sure') }
 
 %br
 
-= link_to t('new_task'), new_task_path
+= link_to I18n.t('.new_task'), new_task_path

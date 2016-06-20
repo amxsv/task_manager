@@ -1,6 +1,6 @@
-%h1= t('new_task')
+%h1= I18n.t('.new_task')
 
 = render 'form'
 
 %br
-= link_to t('back'), tasks_path
+= link_to I18n.t('.back'), tasks_path

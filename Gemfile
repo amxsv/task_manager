@@ -20,14 +20,10 @@ gem 'coveralls', require: false
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'state_machine'
 gem 'i18n'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'rails_12factor', group: :production
 
 group :development, :test do
+  gem 'bullet'
   gem 'byebug'
 end
 
