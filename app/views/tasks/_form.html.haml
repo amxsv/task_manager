@@ -1,7 +1,7 @@
 = simple_form_for @task do |f|
   - if @task.errors.any?
     .error_explanation
-      %h2= "#{pluralize(@task.errors.count, "error")}" + I18n.t('.error_explanation_endind')
+      %h2= "#{pluralize(@task.errors.count, "error")}" + I18n.t('messages.error_explanation_endind')
       %ul
         - @task.errors.full_messages.each do |msg|
           %li= msg
