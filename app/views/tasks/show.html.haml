@@ -1,0 +1,8 @@
+%p
+  %b= Task.human_attribute_name( :title )
+  = @task.title
+
+%br
+= link_to t('buttons.edit'), edit_task_path(@task)
+
+= link_to t('buttons.back'), tasks_path
