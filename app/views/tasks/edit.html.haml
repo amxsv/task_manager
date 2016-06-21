@@ -1,8 +1,8 @@
-%h1= I18n.t('titles.editing_task')
+%h1= t('.editing_task')
 
 = render 'form'
 
 %br
-= link_to I18n.t('buttons.show'), @task
+= link_to t('buttons.show'), @task
 
-= link_to I18n.t('buttons.back'), tasks_path
+= link_to t('buttons.back'), tasks_path

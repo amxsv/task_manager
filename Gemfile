@@ -21,6 +21,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'state_machine'
 gem 'i18n'
 gem 'rails_12factor', group: :production
+gem 'i18n-tasks', '~> 0.9.5'
 
 group :development, :test do
   gem 'bullet'

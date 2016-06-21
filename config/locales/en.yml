@@ -1,17 +1,21 @@
 en:
   buttons:
-    show: "Show"
-    edit: "Edit"
-    destroy: "Destroy"
-    new_task: "New Task"
-    back: "Back"
-  titles:
-    app_name: "Task Manager"
-    creating_task: "Creating Task"
-    editing_task: 'Editing Task'
-    task_title: 'Title:'
-    todo: "To Do"
+    back: Back
+    destroy: Destroy
+    edit: Edit
+    new_task: New Task
+    show: Show
+  layouts:
+    application:
+      app_name: App name
   messages:
-    are_you_sure: "Are you sure?"
+    are_you_sure: Are you sure?
     error_explanation_endind: 'prohibited this task from being saved:'
-
+  tasks:
+    edit:
+      editing_task: Editing task
+    index:
+      app_name: App name
+      todo: Todo
+    new:
+      creating_task: Creating task
